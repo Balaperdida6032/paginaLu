@@ -1,0 +1,176 @@
+/* Estilos generales */
+body {
+    background-color: #EFDEC3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #80A380;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Estilo para el logo centrado */
+.navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .logo a {
+    font-family: "Gentium Book Plus", serif; /* Aquí aplicas la fuente */
+    font-size: 4rem;
+    font-weight: 700; /* Puedes cambiar esto a 400 si prefieres el estilo normal */
+    color: #fff;
+    text-decoration: none;
+    font-style: normal; /* Puedes cambiar esto a italic si prefieres cursiva */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo{
+    margin-bottom: 7%;
+}
+
+/* Navegación izquierda */
+.nav-left {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-left li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-left li a:hover {
+    color: #044a41;
+}
+
+/* Navegación derecha */
+.nav-right {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right li {
+    margin-left: 20px;
+}
+
+.nav-right li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li a:hover {
+    color: #044a41;
+}
+
+/* Icono del carrito */
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #80A380;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+    color: #044a41;
+}
+
+/* Contenedor principal */
+.container {
+    min-height: 80vh; /* Para dar espacio suficiente entre el header y el footer */
+    padding: 2rem;
+}
+
+/* Estilo para centrar la imagen y colocar el texto debajo */
+.image-text {
+    text-align: center; /* Centrar contenido */
+    margin-top: 20px; /* Añadir un poco de margen superior */
+}
+
+.image-text img {
+    width: 500px; /* Tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.image-text p {
+    font-family: "Gentium Book Plus", serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 auto;
+    max-width: 700px; /* Limitar el ancho del texto para mejorar legibilidad */
+}
+
+/* Estilo para la sección del video */
+.video-section {
+    text-align: center; /* Centrar el título y el video */
+    margin-top: 40px; /* Separar del contenido anterior */
+}
+
+.video-section h4 {
+    font-family: "Gentium Book Plus", serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px; /* Espacio entre el título y el video */
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 560px; /* Ajusta el tamaño del video */
+    height: 315px;
+    border: none;
+    margin: 0 auto;
+}
